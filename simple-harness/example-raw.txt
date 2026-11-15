@@ -1,0 +1,44 @@
+<bos><|turn>system
+You are a coding agent. You help with one task at a time in a project folder.
+Reply in plain, short sentences, and give only what the task asks for.
+
+# AGENTS.md
+
+This is the web shop of a small bakery. The code is in src/ and the tests are in test/.
+
+- Write in British English.
+- Name issues by their number, such as #42.
+
+# Skills
+
+A skill is a file with steps for one kind of task. When a task matches a skill, first read the skill's file with the read tool, then follow its steps.
+
+- commit-message: Write a commit message for a change. File: skills/commit-message/SKILL.md
+- release-notes: Write release notes for a new version. File: skills/release-notes/SKILL.md
+
+# Tools
+
+You have one tool, read, which returns the text of a file in the project folder.
+To use it, reply with one line like this and nothing else:
+CALL read("skills/release-notes/SKILL.md")
+The program then replies with RESULT: and the text of the file.<turn|>
+<|turn>user
+Write a commit message for my fix of issue 123: src/session.ts now reads the timeout in milliseconds, so users are no longer logged out after a minute.<turn|>
+<|turn>model
+CALL read("skills/commit-message/SKILL.md")<turn|>
+<|turn>user
+RESULT: ---
+name: commit-message
+description: Write a commit message for a change.
+---
+
+1. The first line says what the change does, in at most 50 characters. It starts with a verb, such as Fix, Add or Remove.
+2. Then comes an empty line.
+3. Then one or two sentences say why the change was needed.
+4. The last line is "Fixes" and the issue number, when the change fixes an issue.<turn|>
+<|turn>model
+Fix: Adjust session timeout to milliseconds
+
+The session timeout was previously set incorrectly. This change updates it to use milliseconds, preventing premature logouts.
+
+Fixes #123
