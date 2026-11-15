@@ -122,10 +122,11 @@ def body_names(out, x, y, w):
     y = para(out, x, y, w, 'Some words became far more common in scientific abstracts, likely because scientists '
              'used AI: "delve", "intricate" and "underscore". [3]', 15.5) + 12
     return why_and_tip(out, x, y, w,
-                       'in the one model whose training data is public, these story words are rare in books and '
-                       'web text. They are more frequent in the data of each later training step, but still too '
-                       'rare to explain the result. [2] For words such as "delve", a comparison of models fits '
-                       'training on human ratings, but a test with human raters did not confirm it. [3]',
+                       'in OLMo, the only model in the study with public training data, these story words are '
+                       'rare in books and web text. They are more frequent in the data of each later training '
+                       'step, but still too rare to explain the result. [2] For words such as "delve", a '
+                       'comparison of models fits training on human ratings, but a test with human raters did not '
+                       'confirm it. [3]',
                        'give real names and details yourself. A stock name in a text is a sign that a model wrote '
                        'it, so check that the person exists.')
 
@@ -178,8 +179,8 @@ def body_typical(out, x, y, w):
              'metaphors, emotion and images went first, and the plain facts stayed. [6]', 15.5) + 6
     y = para(out, x, y, w, 'Written again from the short version, the text got longer and used more varied words, '
              'but the original ideas did not come back. It looked new without being original. [6]', 15.5) + 6
-    y = para(out, x, y, w, 'Cues such as a metaphor, an emotion or an image to use helped, but only in part. [6]',
-             15.5) + 6
+    y = para(out, x, y, w, 'Giving the model a metaphor, an emotion or an image to use helped, but only in part. '
+             '[6]', 15.5) + 6
     y = para(out, x, y, w, 'People who write with AI move toward the typical too. In a study with 118 writers from '
              'India and the US, AI suggestions moved the Indian writers toward Western writing styles. [7]',
              15.5) + 12
@@ -225,7 +226,8 @@ def body_dense(out, x, y, w):
               'reach them.', 'k-green', 14.5, 't-green') + 10
 
     y = para(out, x, y, w, 'A 2026 study compared nine leading models with human writing. All nine used more '
-             'rare word sequences, and more things that act like living beings, as in "is_file() swallows that". '
+             'rare word sequences, and more often made a thing act like a living being, as in "is_file() swallows '
+             'that". '
              'Most also used more stacked nouns. Each of these makes the reader hold more in mind, or read the '
              'sentence again. [9]', 15.5) + 6
     y = para(out, x, y, w, 'Claude Opus 5.5 used these features less than Claude Opus 5 in 19 of 21 comparisons, '
@@ -257,8 +259,8 @@ def body_fresh(out, x, y, w):
              '"the plan is complete and evidence-based", and starts from them.', 15.5) + 6
     y = para(out, x, y, w, 'Some harnesses start a subagent with only the task and the output, and it works like '
              'a fresh session. A fork starts with a copy of the conversation, so it does not. [11]', 15.5) + 6
-    y = para(out, x, y, w, 'Models score their own text higher, and the better a model can tell its own text '
-             'apart, the larger this bias. A fresh session of the same model still has it. [12]', 15.5) + 6
+    y = para(out, x, y, w, 'Models score their own text higher, and the better a model recognises its own text, '
+             'the larger this bias. A fresh session of the same model still has it. [12]', 15.5) + 6
     y = para(out, x, y, w, 'Models also tend to agree with the person asking. This is called **sycophancy**. [13]',
              15.5) + 12
     return why_and_tip(out, x, y, w,
@@ -332,7 +334,7 @@ def draw_centre(out, top, extra=0):
     anchors = {}
     x0, x1 = CX0 + 30, CX1 - 30
     vx = x0 + 44
-    text(out, CX0 + 24, top + 42, 'One real problem, from question to decision', 27, bold=True)
+    text(out, CX0 + 24, top + 42, 'One realistic problem, from question to decision', 27, bold=True)
     text(out, CX0 + 24, top + 70, 'Panels A to E show parts of it in more detail. The town and its numbers are made '
          'up.', 15.5, 'ink2')
     gap = 30 + extra / 5

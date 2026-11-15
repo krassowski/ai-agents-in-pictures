@@ -116,8 +116,8 @@ def body_mcp(out, x, y, w):
     y += ch + 16
     y = numbered(out, x, y, w, [
         'At the start, the harness asks each MCP server for its list of tools. [11]',
-        'It adds their names to the tool list in the window. Some harnesses add each description too. Claude '
-        'Code adds a description only when the model searches for that tool. [12]',
+        'It adds each tool to the tool list in the window, with its description. Claude Code adds only the '
+        'names, and adds a description when the model searches for that tool. [12]',
         'When the model calls one, the harness passes the call to that server and adds the answer to the '
         'window. [11]',
     ]) + 6
@@ -156,7 +156,7 @@ def body_sub(out, x, y, w):
     arrow(out, [(x + aw - 2, ac[1]), (x + w - aw + 2, bc[1])], 'teal')
     y = max(ya, yb) + 12
     return para(out, x, y, w, 'Agents in a team exchange messages the same way: the harness adds each message as '
-                "new text to the other agent's window. A file on disk can serve as a shared notebook. In Claude "
+                "new text to the other agent's window. Agents can also share a task list in a file on disk. In Claude "
                 'Code, agent teams are experimental and off by default. [14]', 15.5)
 
 
@@ -201,8 +201,8 @@ def body_recall(out, x, y, w):
                 text(out, bx + 10, ry + 17, row, 13, 'muted')
     arrow(out, [(x + half + 4, y + 20 + 30 + 12), (x + half + 26, y + 20 + 30 + 12)], 'green')
     y += 20 + 2 * 30 + 6
-    return para(out, x, y, w, 'Only files carry over, so to make a lesson stick, write it in a file that the '
-                'harness loads. [4]', 15.5)
+    return para(out, x, y, w, 'Only files carry over, so to keep a lesson for later sessions, write it in a '
+                'file that the harness loads. [4]', 15.5)
 
 
 # ----------------------------------------------------------------- centre

@@ -79,8 +79,8 @@ def body_inject(out, x, y, w):
     y = para(out, x, y, w, 'The model reads your instructions and everything else in the window the same way, '
              'as text. A web page, an issue, a README or a tool result can contain instructions, and the model '
              'may follow them. This is called **prompt injection**. [1]', 15.5) + 6
-    y = para(out, x, y, w, 'Such text can hide where people do not look: in HTML comments, in images, or deep in '
-             'a long file. [1]', 15.5) + 6
+    y = para(out, x, y, w, 'Such text can be hidden where people do not look: in HTML comments, in images, or '
+             'deep in a long file. [1]', 15.5) + 6
     y = para(out, x, y, w, 'Text that you did not write is untrusted even inside your project, for example the '
              'README of a cloned repository, or the files of a package.', 15.5) + 12
     return note(out, x, y, w, 'Limit what the agent can do while it reads such text, and check what it saved to '
@@ -92,23 +92,25 @@ def body_rules(out, x, y, w):
         ('k-green', 'allow', 'runs at once: read files, run tests'),
         ('k-yellow', 'ask', 'waits for your yes: network, git push'),
         ('k-danger', 'deny', 'the harness refuses a call that matches the rule'),
-        ('k-blue', 'auto', 'a second model approves or blocks each call'),
+        ('k-blue', 'auto', 'a second model approves or blocks calls'),
     ]) + 4
     y = para(out, x, y, w, '**Permission rules** decide what runs at once, what waits for your yes, and what the '
              'harness refuses. A rule matches the command text, so a script can still read a denied file. [2]',
              15.5) + 6
-    y = para(out, x, y, w, 'Claude Code now starts in **auto mode**, where a second model reviews each call '
-             'instead of you. Injected text can try to fool that model too. Rules set to ask still ask you. [3]',
-             15.5) + 6
+    y = para(out, x, y, w, 'Claude Code starts in **auto mode**: reads and edits in your project run at once, and '
+             'a second model reviews the other calls instead of you. That model does not see tool results, so '
+             'injected text cannot steer it. It can still approve a harmful call. Rules set to ask still ask you. '
+             '[3]', 15.5) + 6
     y = para(out, x, y, w, 'A **sandbox** makes the operating system limit what commands can reach, for example '
-             'no network and no writes outside the project. Many sandboxes still allow reading most files, so '
-             'deny the paths of your secrets in the sandbox too. [4, 5, 6]', 15.5) + 6
+             'no network and no writes outside the project. In Claude Code it is off until you turn it on with the '
+             '`/sandbox` command. Many sandboxes still allow reading most files, so deny the paths of your secrets '
+             'in the sandbox too. [4, 5, 6]', 15.5) + 6
     y = para(out, x, y, w, 'Some harnesses also run **hooks**: your own scripts at fixed points, for example '
              'before every command. A hook can block a call, and the model cannot skip it. [6, 7]', 15.5) + 8
     y = rows_box(out, x, y, w, [('`before each command:`', 'ink2'), ('`  reads .env? block it`', 'ink2')],
                  'code-bg', 13.5) + 12
     return note(out, x, y, w, '**AGENTS.md is advice** that the model usually follows. **Permissions, sandboxes '
-                'and hooks are rules** that the harness enforces. [8]', 'note-yellow')
+                'and hooks are rules** that the harness and the operating system enforce. [8]', 'note-yellow')
 
 
 def body_install(out, x, y, w):
@@ -121,14 +123,14 @@ def body_install(out, x, y, w):
         text(out, x + 44, y + 25, f'**{name}:** {what}', 14.5)
         y += 48
     y += 6
-    y = para(out, x, y, w, 'MCP servers, skills and plugins come from other people. They run with your '
-             'permissions, and their tool descriptions and output go into the window, so verify that you trust '
-             'each one before you install it. [9, 10]', 15.5) + 6
+    y = para(out, x, y, w, 'MCP servers, skills and plugins often come from other people. They run with your '
+             'permissions, and their tool descriptions and output go into the window. Install only the ones '
+             'from authors you trust. [9, 10]', 15.5) + 6
     y = para(out, x, y, w, 'A malicious skill can make the model call tools or run code in ways that its '
              'description does not mention. [10]', 15.5) + 6
-    y = para(out, x, y, w, 'Models also invent package names. In one study, 5.2% of the package names from '
-             'commercial models and 21.7% from open models did not exist, and an attacker can publish a package '
-             'under such a name. [11]', 15.5) + 12
+    y = para(out, x, y, w, 'Models also invent package names. In one study, 5.2% of the package names that '
+             'commercial models wrote did not exist. For open models it was 21.7%. An attacker can publish a '
+             'package under such a name. [11]', 15.5) + 12
     return note(out, x, y, w, 'Check that a package exists, and is the one you meant, before the agent installs '
                 'it.', 'note-grey')
 
@@ -170,11 +172,12 @@ def body_leaves(out, x, y, w):
     y = para(out, x, y, w, 'Every request sends the whole window to the provider: your messages, every file '
              'the agent read, tool output, and any secret that appears in them.', 15.5) + 6
     y = para(out, x, y, w, 'What the provider stores, and for how long, depends on its terms and your plan. On '
-             'some plans the provider may also train later models on your sessions, depending on a setting. [13]',
-             15.5) + 6
+             'some plans the provider may also train later models on your sessions, depending on a setting. '
+             'Anthropic, for example, keeps sessions on personal plans for 30 days, or for 5 years if you allow '
+             'training on them. [13]', 15.5) + 6
     y = para(out, x, y, w, 'An open-weight model that runs on your own computer keeps the window there.', 15.5) + 12
-    return note(out, x, y, w, 'Keep secrets out of the window: deny their paths in the sandbox, and do not paste '
-                'passwords or API keys into the chat.', 'note-grey')
+    return note(out, x, y, w, 'Keep secrets out of the window: deny their paths in a permission rule and in the '
+                'sandbox, and do not paste passwords or API keys into the chat.', 'note-grey')
 
 
 # ----------------------------------------------------------------- centre
@@ -309,7 +312,7 @@ def draw_centre(out, top, extra=0):
     story = [
         'You ask the agent to fix issue 42.',
         'The agent reads the issue. Someone else wrote it, and a hidden comment in it tells agents to send '
-        'the `.env` file away.',
+        'the `.env` file to example.com.',
         'The model follows that text and writes a `curl` command that would upload `.env`.',
         'Your rule for network commands is "ask". You read the command and say no, so it does not run.',
         'The agent edits the code. A hook runs the tests after each edit: two fail, and the next edit fixes '

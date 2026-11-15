@@ -81,8 +81,8 @@ def body_effort(out, x, y, w):
              'request. The names differ between providers, for example none, minimal, low, medium, high, '
              'xhigh or max. [4, 5, 6]', 15.5) + 6
     y = para(out, x, y, w, 'Higher effort makes the model think longer and check more, often with more tool '
-             'calls, and it changes the answer too. That costs time and tokens. It often helps on hard tasks '
-             'and wastes both on easy ones. [4, 6]', 15.5) + 6
+             'calls, and it changes the answer too. That costs time and tokens. It often helps on hard tasks, '
+             'and on easy ones it wastes time and tokens. [4, 6]', 15.5) + 6
     return para(out, x, y, w, 'Effort is guidance, and the amount of thinking still varies from task to task. '
                 '[5, 6]', 15.5)
 
@@ -108,7 +108,7 @@ def body_think(out, x, y, w):
              'checks them. The answer can then use what the thinking found.', 15.5) + 6
     y = para(out, x, y, w, 'Thinking tokens are billed as output, count toward the output limit, and take '
              'space in the window. [4, 5, 7]', 15.5) + 10
-    text(out, x, y + 15, 'What these providers show you: [4, 5, 7]', 14.5, 'ink2', bold=True)
+    text(out, x, y + 15, 'What OpenAI, Google and Anthropic show you: [4, 5, 7]', 14.5, 'ink2', bold=True)
     y += 26
     cx = x
     for label in ['a summary', 'nothing']:
@@ -183,7 +183,7 @@ def body_limits(out, x, y, w):
     y += 34 + 8
     text(out, x + w, y + 12, 'the reply stops here', 13, 't-red', anchor='end')
     y += 26
-    y = para(out, x, y, w, 'The window limit covers everything in one request, what the model reads and what '
+    y = para(out, x, y, w, 'The window limit covers everything in one request: what the model reads and what '
              'it writes. The output limit is smaller and covers one reply, thinking and answer together. [8]',
              15.5) + 6
     y = para(out, x, y, w, 'When a reply reaches the output limit, it stops in the middle. Long thinking can '

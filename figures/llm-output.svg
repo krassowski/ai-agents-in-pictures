@@ -174,7 +174,7 @@ a:hover .lnk { text-decoration: underline; }
 <text x="1890.6" y="62.0" class="muted" style="font-size:16px" xml:space="preserve">3. <a href="llm-trust.svg"><tspan class="lnk">Trust and control</tspan></a></text>
 <text x="2064.3" y="62.0" class="ink2" style="font-size:16px" xml:space="preserve"><tspan class="b">4. Steering and judging AI output</tspan></text>
 <rect x="600.0" y="150.0" width="1160.0" height="2190.2" rx="16" class="center"/>
-<text x="624.0" y="192.0" class="b" style="font-size:27px" xml:space="preserve">One real problem, from question to decision</text>
+<text x="624.0" y="192.0" class="b" style="font-size:27px" xml:space="preserve">One realistic problem, from question to decision</text>
 <text x="624.0" y="220.0" class="ink2" style="font-size:15.5px" xml:space="preserve">Panels A to E show parts of it in more detail. The town and its numbers are made up.</text>
 <rect x="1588.7" y="258.0" width="141.3" height="26.0" rx="13" class="k-green"/>
 <circle cx="1608.730390625" cy="266" r="5" class="ic"/>
@@ -362,12 +362,12 @@ a:hover .lnk { text-decoration: underline; }
 <path d="M1395.3,2267.4 L1413.3,2267.4" class="ar ar-ink2" marker-end="url(#ah-ink2)"/>
 <text x="1421.3" y="2271.3" class="" style="font-size:14px" xml:space="preserve">Short solutions win, and text may get</text>
 <text x="1421.3" y="2291.1" class="" style="font-size:14px" xml:space="preserve">dense. <tspan class="b">D </tspan><tspan class="r">[9]</tspan></text>
-<rect x="30.0" y="150.0" width="540.0" height="443.3" rx="14" class="panel"/>
+<rect x="30.0" y="150.0" width="540.0" height="436.0" rx="14" class="panel"/>
 <text x="52.0" y="188.0" class="b" style="font-size:22px" xml:space="preserve">Words used here</text>
 <text x="52.0" y="225.9" class="" style="font-size:15px" xml:space="preserve"><tspan class="b">Model: </tspan>the neural network that reads text and images and writes</text>
-<text x="52.0" y="247.2" class="" style="font-size:15px" xml:space="preserve">text, for example Claude Opus, GPT-5 or Gemini. Open-weight</text>
+<text x="52.0" y="247.2" class="" style="font-size:15px" xml:space="preserve">text, for example Claude Opus, GPT or Gemini. Open-weight</text>
 <text x="52.0" y="268.5" class="" style="font-size:15px" xml:space="preserve">models such as Qwen or DeepSeek can also run on your own</text>
-<text x="52.0" y="289.8" class="" style="font-size:15px" xml:space="preserve">hardware.</text>
+<text x="52.0" y="289.8" class="" style="font-size:15px" xml:space="preserve">computer.</text>
 <text x="52.0" y="316.1" class="" style="font-size:15px" xml:space="preserve"><tspan class="b">Harness: </tspan>the program around the model. It builds the context</text>
 <text x="52.0" y="337.4" class="" style="font-size:15px" xml:space="preserve">window, sends it to the model, runs the tools and asks for your</text>
 <text x="52.0" y="358.7" class="" style="font-size:15px" xml:space="preserve">permission. For example Claude Code, Codex CLI, Gemini CLI,</text>
@@ -377,102 +377,103 @@ a:hover .lnk { text-decoration: underline; }
 <text x="52.0" y="453.9" class="" style="font-size:15px" xml:space="preserve"><tspan class="b">Training: </tspan>how a model is built, from text collected up to a cutoff</text>
 <text x="52.0" y="475.2" class="" style="font-size:15px" xml:space="preserve">date. The model does not change while you use it.</text>
 <text x="52.0" y="501.5" class="" style="font-size:15px" xml:space="preserve"><tspan class="b">Training on human ratings: </tspan>a late step in training, where people,</text>
-<text x="52.0" y="522.8" class="" style="font-size:15px" xml:space="preserve">or models built from their choices, score answers. The model</text>
+<text x="52.0" y="522.8" class="" style="font-size:15px" xml:space="preserve">or models trained on their choices, score answers. The model</text>
 <text x="52.0" y="544.1" class="" style="font-size:15px" xml:space="preserve">learns to write the answers that score well.</text>
-<rect x="30.0" y="617.3" width="540.0" height="836.0" rx="14" class="panel"/>
-<text x="96.0" y="655.3" class="b" style="font-size:22px" xml:space="preserve">The same few names and words</text>
-<circle cx="68.0" cy="647.3" r="16" class="dark"/>
-<text x="68.0" y="653.1" class="on-dark b" style="font-size:16.8px" text-anchor="middle" xml:space="preserve">A</text>
-<text x="52.0" y="692.3" class="ink2 b" style="font-size:14px" xml:space="preserve">Stock names in some 2025 model versions</text>
-<text x="548.0" y="692.3" class="" style="font-size:14px" text-anchor="end" xml:space="preserve"><tspan class="r">[1]</tspan></text>
-<text x="52.0" y="720.3" class="b" style="font-size:14.5px" xml:space="preserve">GPT</text>
-<text x="126.0" y="720.3" class="t-blue" style="font-size:14.5px" xml:space="preserve">Elara Voss</text>
-<text x="52.0" y="746.3" class="b" style="font-size:14.5px" xml:space="preserve">Claude</text>
-<text x="126.0" y="746.3" class="t-blue" style="font-size:14.5px" xml:space="preserve">Elena Vasquez, Marcus Chen, Amara Okafor</text>
-<text x="52.0" y="772.3" class="b" style="font-size:14.5px" xml:space="preserve">Gemini</text>
-<text x="126.0" y="772.3" class="t-blue" style="font-size:14.5px" xml:space="preserve">Aris Thorne, Lena Petrova</text>
-<text x="52.0" y="806.3" class="ink2 b" style="font-size:14px" xml:space="preserve">In 20,000 stories from four models</text>
-<text x="548.0" y="806.3" class="" style="font-size:14px" text-anchor="end" xml:space="preserve"><tspan class="r">[2]</tspan></text>
-<rect x="52.0" y="817.3" width="496.0" height="24.0" rx="5" class="win"/>
-<rect x="54.0" y="819.3" width="434.4" height="20.0" rx="4" class="k-blue"/>
-<text x="62.0" y="834.3" class="t-blue b" style="font-size:13.5px" xml:space="preserve">88.3% contain at least one of 11 words, such as</text>
-<rect x="52.0" y="849.3" width="48.5" height="26.0" rx="13" class="k-blue"/>
-<text x="76.3" y="867.3" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">Elias</text>
-<rect x="108.5" y="849.3" width="52.7" height="26.0" rx="13" class="k-blue"/>
-<text x="134.9" y="867.3" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">Mara</text>
-<rect x="169.2" y="849.3" width="51.4" height="26.0" rx="13" class="k-blue"/>
-<text x="194.9" y="867.3" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">Elara</text>
-<rect x="228.6" y="849.3" width="87.4" height="26.0" rx="13" class="k-blue"/>
-<text x="272.4" y="867.3" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">lighthouse</text>
-<rect x="324.1" y="849.3" width="92.4" height="26.0" rx="13" class="k-blue"/>
-<text x="370.3" y="867.3" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">clockmaker</text>
-<rect x="424.5" y="849.3" width="73.1" height="26.0" rx="13" class="k-blue"/>
-<text x="461.0" y="867.3" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">librarian</text>
-<text x="52.0" y="905.8" class="" style="font-size:15.5px" xml:space="preserve">Ask for a story, an example or an expert, and models pick from a</text>
-<text x="52.0" y="927.8" class="" style="font-size:15.5px" xml:space="preserve">short list of names, places and jobs. <tspan class="r">[1, 2]</tspan></text>
-<text x="52.0" y="955.8" class="" style="font-size:15.5px" xml:space="preserve">Each model version has its own names, and newer versions use</text>
-<text x="52.0" y="977.8" class="" style="font-size:15.5px" xml:space="preserve">them less, so the names also show roughly when a text was</text>
-<text x="52.0" y="999.8" class="" style="font-size:15.5px" xml:space="preserve">written. <tspan class="r">[1]</tspan></text>
-<text x="52.0" y="1027.8" class="" style="font-size:15.5px" xml:space="preserve">One study found 1,655 fake research records with real DOIs</text>
-<text x="52.0" y="1049.8" class="" style="font-size:15.5px" xml:space="preserve">(permanent research identifiers). Their most frequent author,</text>
-<text x="52.0" y="1071.8" class="" style="font-size:15.5px" xml:space="preserve">Elena Vasquez (77 records), is a Claude stock name. <tspan class="r">[1]</tspan></text>
-<text x="52.0" y="1099.8" class="" style="font-size:15.5px" xml:space="preserve">Some words became far more common in scientific abstracts,</text>
-<text x="52.0" y="1121.9" class="" style="font-size:15.5px" xml:space="preserve">likely because scientists used AI: "delve", "intricate" and</text>
-<text x="52.0" y="1143.9" class="" style="font-size:15.5px" xml:space="preserve">"underscore". <tspan class="r">[3]</tspan></text>
-<rect x="52.0" y="1161.4" width="496.0" height="152.1" rx="10" class="note-grey"/>
-<text x="66.0" y="1187.9" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Why: </tspan>in the one model whose training data is public, these</text>
-<text x="66.0" y="1209.9" class="" style="font-size:15.5px" xml:space="preserve">story words are rare in books and web text. They are more</text>
-<text x="66.0" y="1231.9" class="" style="font-size:15.5px" xml:space="preserve">frequent in the data of each later training step, but still too</text>
-<text x="66.0" y="1253.9" class="" style="font-size:15.5px" xml:space="preserve">rare to explain the result. <tspan class="r">[2] </tspan>For words such as "delve", a</text>
-<text x="66.0" y="1275.9" class="" style="font-size:15.5px" xml:space="preserve">comparison of models fits training on human ratings, but a</text>
-<text x="66.0" y="1297.9" class="" style="font-size:15.5px" xml:space="preserve">test with human raters did not confirm it. <tspan class="r">[3]</tspan></text>
-<rect x="52.0" y="1323.5" width="496.0" height="86.0" rx="10" class="note-grey"/>
-<text x="66.0" y="1349.9" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Tip: </tspan>give real names and details yourself. A stock name in a</text>
-<text x="66.0" y="1371.9" class="" style="font-size:15.5px" xml:space="preserve">text is a sign that a model wrote it, so check that the person</text>
-<text x="66.0" y="1394.0" class="" style="font-size:15.5px" xml:space="preserve">exists.</text>
-<rect x="30.0" y="1477.4" width="540.0" height="862.8" rx="14" class="panel"/>
-<text x="96.0" y="1515.4" class="b" style="font-size:22px" xml:space="preserve">Pulled toward the typical</text>
-<circle cx="68.0" cy="1507.4" r="16" class="dark"/>
-<text x="68.0" y="1513.1" class="on-dark b" style="font-size:16.8px" text-anchor="middle" xml:space="preserve">C</text>
-<rect x="52.0" y="1537.4" width="346.0" height="75.6" rx="8" class="k-green"/>
-<text x="64.0" y="1560.2" class="t-green" style="font-size:14px" xml:space="preserve"><tspan class="b">Original idea: </tspan>a heat-wave poster. A row of</text>
-<text x="64.0" y="1580.1" class="t-green" style="font-size:14px" xml:space="preserve">balconies, everyone outside except behind</text>
-<text x="64.0" y="1600.0" class="t-green" style="font-size:14px" xml:space="preserve">one closed curtain: "Knock on that door."</text>
-<text x="412.0" y="1555.2" class="muted" style="font-size:13px" xml:space="preserve">an image and a</text>
-<text x="412.0" y="1573.6" class="muted" style="font-size:13px" xml:space="preserve">feeling</text>
-<path d="M82.0,1615.0 L82.0,1633.0" class="ar ar-ink2" marker-end="url(#ah-ink2)"/>
-<rect x="52.0" y="1635.0" width="346.0" height="55.8" rx="8" class="k-grey"/>
-<text x="64.0" y="1657.9" class="t-grey" style="font-size:14px" xml:space="preserve"><tspan class="b">Shortened: </tspan>heat wave. Check on older</text>
-<text x="64.0" y="1677.7" class="t-grey" style="font-size:14px" xml:space="preserve">neighbours.</text>
-<text x="412.0" y="1652.8" class="muted" style="font-size:13px" xml:space="preserve">only the facts are left</text>
-<path d="M82.0,1692.8 L82.0,1710.8" class="ar ar-ink2" marker-end="url(#ah-ink2)"/>
-<rect x="52.0" y="1712.8" width="346.0" height="75.6" rx="8" class="k-orange"/>
-<text x="64.0" y="1735.6" class="t-orange" style="font-size:14px" xml:space="preserve"><tspan class="b">Written again: </tspan>stay safe this summer!</text>
-<text x="64.0" y="1755.5" class="t-orange" style="font-size:14px" xml:space="preserve">Remember to check on elderly neighbours</text>
-<text x="64.0" y="1775.4" class="t-orange" style="font-size:14px" xml:space="preserve">and stay hydrated in hot weather!</text>
-<text x="412.0" y="1730.6" class="muted" style="font-size:13px" xml:space="preserve">longer, more varied</text>
-<text x="412.0" y="1749.0" class="muted" style="font-size:13px" xml:space="preserve">words, no idea</text>
-<text x="52.0" y="1805.7" class="muted" style="font-size:12.5px" xml:space="preserve">The example is made up to show the finding.</text>
-<text x="52.0" y="1836.6" class="" style="font-size:15.5px" xml:space="preserve">In a study on advertising, models shortened creative ideas step</text>
-<text x="52.0" y="1858.6" class="" style="font-size:15.5px" xml:space="preserve">by step. The metaphors, emotion and images went first, and the</text>
-<text x="52.0" y="1880.6" class="" style="font-size:15.5px" xml:space="preserve">plain facts stayed. <tspan class="r">[6]</tspan></text>
-<text x="52.0" y="1908.6" class="" style="font-size:15.5px" xml:space="preserve">Written again from the short version, the text got longer and</text>
-<text x="52.0" y="1930.6" class="" style="font-size:15.5px" xml:space="preserve">used more varied words, but the original ideas did not come</text>
-<text x="52.0" y="1952.6" class="" style="font-size:15.5px" xml:space="preserve">back. It looked new without being original. <tspan class="r">[6]</tspan></text>
-<text x="52.0" y="1980.7" class="" style="font-size:15.5px" xml:space="preserve">Cues such as a metaphor, an emotion or an image to use helped,</text>
-<text x="52.0" y="2002.7" class="" style="font-size:15.5px" xml:space="preserve">but only in part. <tspan class="r">[6]</tspan></text>
-<text x="52.0" y="2030.7" class="" style="font-size:15.5px" xml:space="preserve">People who write with AI move toward the typical too. In a study</text>
-<text x="52.0" y="2052.7" class="" style="font-size:15.5px" xml:space="preserve">with 118 writers from India and the US, AI suggestions moved</text>
-<text x="52.0" y="2074.7" class="" style="font-size:15.5px" xml:space="preserve">the Indian writers toward Western writing styles. <tspan class="r">[7]</tspan></text>
-<rect x="52.0" y="2092.3" width="496.0" height="108.0" rx="10" class="note-grey"/>
-<text x="66.0" y="2118.7" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Why: </tspan>people who rate answers tend to prefer familiar text.</text>
-<text x="66.0" y="2140.7" class="" style="font-size:15.5px" xml:space="preserve">Training on human ratings therefore makes typical answers</text>
-<text x="66.0" y="2162.7" class="" style="font-size:15.5px" xml:space="preserve">more likely, while models before this step give more varied</text>
-<text x="66.0" y="2184.7" class="" style="font-size:15.5px" xml:space="preserve">answers. <tspan class="r">[8]</tspan></text>
-<rect x="52.0" y="2210.3" width="496.0" height="86.0" rx="10" class="note-grey"/>
-<text x="66.0" y="2236.7" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Tip: </tspan>ask for five options together with how likely each one is,</text>
-<text x="66.0" y="2258.8" class="" style="font-size:15.5px" xml:space="preserve">then look at the unlikely ones. In one study this made</text>
-<text x="66.0" y="2280.8" class="" style="font-size:15.5px" xml:space="preserve">stories, poems and jokes 1.6 to 2.1 times more varied. <tspan class="r">[8]</tspan></text>
+<rect x="30.0" y="610.0" width="540.0" height="850.7" rx="14" class="panel"/>
+<text x="96.0" y="648.0" class="b" style="font-size:22px" xml:space="preserve">The same few names and words</text>
+<circle cx="68.0" cy="640.0" r="16" class="dark"/>
+<text x="68.0" y="645.8" class="on-dark b" style="font-size:16.8px" text-anchor="middle" xml:space="preserve">A</text>
+<text x="52.0" y="685.0" class="ink2 b" style="font-size:14px" xml:space="preserve">Stock names in some 2025 model versions</text>
+<text x="548.0" y="685.0" class="" style="font-size:14px" text-anchor="end" xml:space="preserve"><tspan class="r">[1]</tspan></text>
+<text x="52.0" y="713.0" class="b" style="font-size:14.5px" xml:space="preserve">GPT</text>
+<text x="126.0" y="713.0" class="t-blue" style="font-size:14.5px" xml:space="preserve">Elara Voss</text>
+<text x="52.0" y="739.0" class="b" style="font-size:14.5px" xml:space="preserve">Claude</text>
+<text x="126.0" y="739.0" class="t-blue" style="font-size:14.5px" xml:space="preserve">Elena Vasquez, Marcus Chen, Amara Okafor</text>
+<text x="52.0" y="765.0" class="b" style="font-size:14.5px" xml:space="preserve">Gemini</text>
+<text x="126.0" y="765.0" class="t-blue" style="font-size:14.5px" xml:space="preserve">Aris Thorne, Lena Petrova</text>
+<text x="52.0" y="799.0" class="ink2 b" style="font-size:14px" xml:space="preserve">In 20,000 stories from four models</text>
+<text x="548.0" y="799.0" class="" style="font-size:14px" text-anchor="end" xml:space="preserve"><tspan class="r">[2]</tspan></text>
+<rect x="52.0" y="810.0" width="496.0" height="24.0" rx="5" class="win"/>
+<rect x="54.0" y="812.0" width="434.4" height="20.0" rx="4" class="k-blue"/>
+<text x="62.0" y="827.0" class="t-blue b" style="font-size:13.5px" xml:space="preserve">88.3% contain at least one of 11 words, such as</text>
+<rect x="52.0" y="842.0" width="48.5" height="26.0" rx="13" class="k-blue"/>
+<text x="76.3" y="860.0" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">Elias</text>
+<rect x="108.5" y="842.0" width="52.7" height="26.0" rx="13" class="k-blue"/>
+<text x="134.9" y="860.0" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">Mara</text>
+<rect x="169.2" y="842.0" width="51.4" height="26.0" rx="13" class="k-blue"/>
+<text x="194.9" y="860.0" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">Elara</text>
+<rect x="228.6" y="842.0" width="87.4" height="26.0" rx="13" class="k-blue"/>
+<text x="272.4" y="860.0" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">lighthouse</text>
+<rect x="324.1" y="842.0" width="92.4" height="26.0" rx="13" class="k-blue"/>
+<text x="370.3" y="860.0" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">clockmaker</text>
+<rect x="424.5" y="842.0" width="73.1" height="26.0" rx="13" class="k-blue"/>
+<text x="461.0" y="860.0" class="t-blue" style="font-size:13.5px" text-anchor="middle" xml:space="preserve">librarian</text>
+<text x="52.0" y="898.4" class="" style="font-size:15.5px" xml:space="preserve">Ask for a story, an example or an expert, and models pick from a</text>
+<text x="52.0" y="920.4" class="" style="font-size:15.5px" xml:space="preserve">short list of names, places and jobs. <tspan class="r">[1, 2]</tspan></text>
+<text x="52.0" y="948.4" class="" style="font-size:15.5px" xml:space="preserve">Each model version has its own names, and newer versions use</text>
+<text x="52.0" y="970.5" class="" style="font-size:15.5px" xml:space="preserve">them less, so the names also show roughly when a text was</text>
+<text x="52.0" y="992.5" class="" style="font-size:15.5px" xml:space="preserve">written. <tspan class="r">[1]</tspan></text>
+<text x="52.0" y="1020.5" class="" style="font-size:15.5px" xml:space="preserve">One study found 1,655 fake research records with real DOIs</text>
+<text x="52.0" y="1042.5" class="" style="font-size:15.5px" xml:space="preserve">(permanent research identifiers). Their most frequent author,</text>
+<text x="52.0" y="1064.5" class="" style="font-size:15.5px" xml:space="preserve">Elena Vasquez (77 records), is a Claude stock name. <tspan class="r">[1]</tspan></text>
+<text x="52.0" y="1092.5" class="" style="font-size:15.5px" xml:space="preserve">Some words became far more common in scientific abstracts,</text>
+<text x="52.0" y="1114.5" class="" style="font-size:15.5px" xml:space="preserve">likely because scientists used AI: "delve", "intricate" and</text>
+<text x="52.0" y="1136.5" class="" style="font-size:15.5px" xml:space="preserve">"underscore". <tspan class="r">[3]</tspan></text>
+<rect x="52.0" y="1154.1" width="496.0" height="174.1" rx="10" class="note-grey"/>
+<text x="66.0" y="1180.5" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Why: </tspan>in OLMo, the only model in the study with public</text>
+<text x="66.0" y="1202.5" class="" style="font-size:15.5px" xml:space="preserve">training data, these story words are rare in books and web</text>
+<text x="66.0" y="1224.6" class="" style="font-size:15.5px" xml:space="preserve">text. They are more frequent in the data of each later</text>
+<text x="66.0" y="1246.6" class="" style="font-size:15.5px" xml:space="preserve">training step, but still too rare to explain the result. <tspan class="r">[2] </tspan>For</text>
+<text x="66.0" y="1268.6" class="" style="font-size:15.5px" xml:space="preserve">words such as "delve", a comparison of models fits training</text>
+<text x="66.0" y="1290.6" class="" style="font-size:15.5px" xml:space="preserve">on human ratings, but a test with human raters did not</text>
+<text x="66.0" y="1312.6" class="" style="font-size:15.5px" xml:space="preserve">confirm it. <tspan class="r">[3]</tspan></text>
+<rect x="52.0" y="1338.2" width="496.0" height="86.0" rx="10" class="note-grey"/>
+<text x="66.0" y="1364.6" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Tip: </tspan>give real names and details yourself. A stock name in a</text>
+<text x="66.0" y="1386.6" class="" style="font-size:15.5px" xml:space="preserve">text is a sign that a model wrote it, so check that the person</text>
+<text x="66.0" y="1408.6" class="" style="font-size:15.5px" xml:space="preserve">exists.</text>
+<rect x="30.0" y="1484.7" width="540.0" height="855.5" rx="14" class="panel"/>
+<text x="96.0" y="1522.7" class="b" style="font-size:22px" xml:space="preserve">Pulled toward the typical</text>
+<circle cx="68.0" cy="1514.7" r="16" class="dark"/>
+<text x="68.0" y="1520.5" class="on-dark b" style="font-size:16.8px" text-anchor="middle" xml:space="preserve">C</text>
+<rect x="52.0" y="1544.7" width="346.0" height="75.6" rx="8" class="k-green"/>
+<text x="64.0" y="1567.5" class="t-green" style="font-size:14px" xml:space="preserve"><tspan class="b">Original idea: </tspan>a heat-wave poster. A row of</text>
+<text x="64.0" y="1587.4" class="t-green" style="font-size:14px" xml:space="preserve">balconies, everyone outside except behind</text>
+<text x="64.0" y="1607.3" class="t-green" style="font-size:14px" xml:space="preserve">one closed curtain: "Knock on that door."</text>
+<text x="412.0" y="1562.5" class="muted" style="font-size:13px" xml:space="preserve">an image and a</text>
+<text x="412.0" y="1580.9" class="muted" style="font-size:13px" xml:space="preserve">feeling</text>
+<path d="M82.0,1622.3 L82.0,1640.3" class="ar ar-ink2" marker-end="url(#ah-ink2)"/>
+<rect x="52.0" y="1642.3" width="346.0" height="55.8" rx="8" class="k-grey"/>
+<text x="64.0" y="1665.2" class="t-grey" style="font-size:14px" xml:space="preserve"><tspan class="b">Shortened: </tspan>heat wave. Check on older</text>
+<text x="64.0" y="1685.1" class="t-grey" style="font-size:14px" xml:space="preserve">neighbours.</text>
+<text x="412.0" y="1660.1" class="muted" style="font-size:13px" xml:space="preserve">only the facts are left</text>
+<path d="M82.0,1700.1 L82.0,1718.1" class="ar ar-ink2" marker-end="url(#ah-ink2)"/>
+<rect x="52.0" y="1720.1" width="346.0" height="75.6" rx="8" class="k-orange"/>
+<text x="64.0" y="1743.0" class="t-orange" style="font-size:14px" xml:space="preserve"><tspan class="b">Written again: </tspan>stay safe this summer!</text>
+<text x="64.0" y="1762.8" class="t-orange" style="font-size:14px" xml:space="preserve">Remember to check on elderly neighbours</text>
+<text x="64.0" y="1782.7" class="t-orange" style="font-size:14px" xml:space="preserve">and stay hydrated in hot weather!</text>
+<text x="412.0" y="1737.9" class="muted" style="font-size:13px" xml:space="preserve">longer, more varied</text>
+<text x="412.0" y="1756.3" class="muted" style="font-size:13px" xml:space="preserve">words, no idea</text>
+<text x="52.0" y="1813.0" class="muted" style="font-size:12.5px" xml:space="preserve">The example is made up to show the finding.</text>
+<text x="52.0" y="1843.9" class="" style="font-size:15.5px" xml:space="preserve">In a study on advertising, models shortened creative ideas step</text>
+<text x="52.0" y="1865.9" class="" style="font-size:15.5px" xml:space="preserve">by step. The metaphors, emotion and images went first, and the</text>
+<text x="52.0" y="1888.0" class="" style="font-size:15.5px" xml:space="preserve">plain facts stayed. <tspan class="r">[6]</tspan></text>
+<text x="52.0" y="1916.0" class="" style="font-size:15.5px" xml:space="preserve">Written again from the short version, the text got longer and</text>
+<text x="52.0" y="1938.0" class="" style="font-size:15.5px" xml:space="preserve">used more varied words, but the original ideas did not come</text>
+<text x="52.0" y="1960.0" class="" style="font-size:15.5px" xml:space="preserve">back. It looked new without being original. <tspan class="r">[6]</tspan></text>
+<text x="52.0" y="1988.0" class="" style="font-size:15.5px" xml:space="preserve">Giving the model a metaphor, an emotion or an image to use</text>
+<text x="52.0" y="2010.0" class="" style="font-size:15.5px" xml:space="preserve">helped, but only in part. <tspan class="r">[6]</tspan></text>
+<text x="52.0" y="2038.0" class="" style="font-size:15.5px" xml:space="preserve">People who write with AI move toward the typical too. In a study</text>
+<text x="52.0" y="2060.0" class="" style="font-size:15.5px" xml:space="preserve">with 118 writers from India and the US, AI suggestions moved</text>
+<text x="52.0" y="2082.0" class="" style="font-size:15.5px" xml:space="preserve">the Indian writers toward Western writing styles. <tspan class="r">[7]</tspan></text>
+<rect x="52.0" y="2099.6" width="496.0" height="108.0" rx="10" class="note-grey"/>
+<text x="66.0" y="2126.0" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Why: </tspan>people who rate answers tend to prefer familiar text.</text>
+<text x="66.0" y="2148.1" class="" style="font-size:15.5px" xml:space="preserve">Training on human ratings therefore makes typical answers</text>
+<text x="66.0" y="2170.1" class="" style="font-size:15.5px" xml:space="preserve">more likely, while models before this step give more varied</text>
+<text x="66.0" y="2192.1" class="" style="font-size:15.5px" xml:space="preserve">answers. <tspan class="r">[8]</tspan></text>
+<rect x="52.0" y="2217.7" width="496.0" height="86.0" rx="10" class="note-grey"/>
+<text x="66.0" y="2244.1" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Tip: </tspan>ask for five options together with how likely each one is,</text>
+<text x="66.0" y="2266.1" class="" style="font-size:15.5px" xml:space="preserve">then look at the unlikely ones. In one study this made</text>
+<text x="66.0" y="2288.1" class="" style="font-size:15.5px" xml:space="preserve">stories, poems and jokes 1.6 to 2.1 times more varied. <tspan class="r">[8]</tspan></text>
 <rect x="1790.0" y="150.0" width="540.0" height="591.1" rx="14" class="panel"/>
 <text x="1856.0" y="188.0" class="b" style="font-size:22px" xml:space="preserve">Confident and wrong</text>
 <circle cx="1828.0" cy="180.0" r="16" class="dark"/>
@@ -534,9 +535,9 @@ a:hover .lnk { text-decoration: underline; }
 <text x="1824.0" y="1200.6" class="t-green" style="font-size:14.5px" xml:space="preserve">does not reach them.</text>
 <text x="1812.0" y="1240.3" class="" style="font-size:15.5px" xml:space="preserve">A 2026 study compared nine leading models with human</text>
 <text x="1812.0" y="1262.3" class="" style="font-size:15.5px" xml:space="preserve">writing. All nine used more rare word sequences, and more</text>
-<text x="1812.0" y="1284.3" class="" style="font-size:15.5px" xml:space="preserve">things that act like living beings, as in "is_file() swallows that".</text>
-<text x="1812.0" y="1306.3" class="" style="font-size:15.5px" xml:space="preserve">Most also used more stacked nouns. Each of these makes the</text>
-<text x="1812.0" y="1328.3" class="" style="font-size:15.5px" xml:space="preserve">reader hold more in mind, or read the sentence again. <tspan class="r">[9]</tspan></text>
+<text x="1812.0" y="1284.3" class="" style="font-size:15.5px" xml:space="preserve">often made a thing act like a living being, as in "is_file() swallows</text>
+<text x="1812.0" y="1306.3" class="" style="font-size:15.5px" xml:space="preserve">that". Most also used more stacked nouns. Each of these makes</text>
+<text x="1812.0" y="1328.3" class="" style="font-size:15.5px" xml:space="preserve">the reader hold more in mind, or read the sentence again. <tspan class="r">[9]</tspan></text>
 <text x="1812.0" y="1356.3" class="" style="font-size:15.5px" xml:space="preserve">Claude Opus 5.5 used these features less than Claude Opus 5 in</text>
 <text x="1812.0" y="1378.3" class="" style="font-size:15.5px" xml:space="preserve">19 of 21 comparisons, clearly in 8. <tspan class="r">[9]</tspan></text>
 <text x="1812.0" y="1406.4" class="" style="font-size:15.5px" xml:space="preserve">A long answer looks thorough, but length is not a measure of</text>
@@ -575,9 +576,9 @@ a:hover .lnk { text-decoration: underline; }
 <text x="1812.0" y="1996.5" class="" style="font-size:15.5px" xml:space="preserve">Some harnesses start a subagent with only the task and the</text>
 <text x="1812.0" y="2018.5" class="" style="font-size:15.5px" xml:space="preserve">output, and it works like a fresh session. A fork starts with a copy</text>
 <text x="1812.0" y="2040.5" class="" style="font-size:15.5px" xml:space="preserve">of the conversation, so it does not. <tspan class="r">[11]</tspan></text>
-<text x="1812.0" y="2068.5" class="" style="font-size:15.5px" xml:space="preserve">Models score their own text higher, and the better a model can</text>
-<text x="1812.0" y="2090.5" class="" style="font-size:15.5px" xml:space="preserve">tell its own text apart, the larger this bias. A fresh session of the</text>
-<text x="1812.0" y="2112.5" class="" style="font-size:15.5px" xml:space="preserve">same model still has it. <tspan class="r">[12]</tspan></text>
+<text x="1812.0" y="2068.5" class="" style="font-size:15.5px" xml:space="preserve">Models score their own text higher, and the better a model</text>
+<text x="1812.0" y="2090.5" class="" style="font-size:15.5px" xml:space="preserve">recognises its own text, the larger this bias. A fresh session of</text>
+<text x="1812.0" y="2112.5" class="" style="font-size:15.5px" xml:space="preserve">the same model still has it. <tspan class="r">[12]</tspan></text>
 <text x="1812.0" y="2140.6" class="" style="font-size:15.5px" xml:space="preserve">Models also tend to agree with the person asking. This is called</text>
 <text x="1812.0" y="2162.6" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">sycophancy</tspan>. <tspan class="r">[13]</tspan></text>
 <rect x="1812.0" y="2180.1" width="496.0" height="64.0" rx="10" class="note-grey"/>
@@ -586,16 +587,16 @@ a:hover .lnk { text-decoration: underline; }
 <rect x="1812.0" y="2254.2" width="496.0" height="64.0" rx="10" class="note-grey"/>
 <text x="1826.0" y="2280.6" class="" style="font-size:15.5px" xml:space="preserve"><tspan class="b">Tip: </tspan>review in a fresh session, with another model or a</text>
 <text x="1826.0" y="2302.6" class="" style="font-size:15.5px" xml:space="preserve">person <tspan class="r">[12]</tspan>, and keep your opinion out of the request.</text>
-<path d="M656.0,569.7 H580.0 V647.3 H570.0" class="halo"/>
-<path d="M656.0,569.7 H580.0 V647.3 H570.0" class="zoom"/>
+<path d="M656.0,569.7 H580.0 V640.0 H570.0" class="halo"/>
+<path d="M656.0,569.7 H580.0 V640.0 H570.0" class="zoom"/>
 <circle cx="656.0" cy="569.7" r="15" class="dark"/>
 <text x="656.0" y="575.1" class="on-dark b" style="font-size:15.75px" text-anchor="middle" xml:space="preserve">A</text>
 <path d="M1746.0,613.7 L1790.0,613.7" class="halo"/>
 <path d="M1746.0,613.7 L1790.0,613.7" class="zoom"/>
 <circle cx="1746.0" cy="613.7" r="15" class="dark"/>
 <text x="1746.0" y="619.1" class="on-dark b" style="font-size:15.75px" text-anchor="middle" xml:space="preserve">B</text>
-<path d="M656.0,657.7 H590.0 V1507.4 H570.0" class="halo"/>
-<path d="M656.0,657.7 H590.0 V1507.4 H570.0" class="zoom"/>
+<path d="M656.0,657.7 H590.0 V1514.7 H570.0" class="halo"/>
+<path d="M656.0,657.7 H590.0 V1514.7 H570.0" class="zoom"/>
 <circle cx="656.0" cy="657.7" r="15" class="dark"/>
 <text x="656.0" y="663.1" class="on-dark b" style="font-size:15.75px" text-anchor="middle" xml:space="preserve">C</text>
 <path d="M1746.0,723.7 H1780.0 V795.1 H1790.0" class="halo"/>

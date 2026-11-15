@@ -489,18 +489,17 @@ def step_header(out, x, y, n, title, desc, w):
 
 GLOSSARY = {
     'model': '**Model:** the neural network that reads text and images and writes text, for example Claude '
-             'Opus, GPT-5 or Gemini. Open-weight models such as Qwen or DeepSeek can also run on your own '
-             'hardware.',
+             'Opus, GPT or Gemini. Open-weight models such as Qwen or DeepSeek can also run on your own '
+             'computer.',
     'harness': '**Harness:** the program around the model. It builds the context window, sends it to the model, '
                'runs the tools and asks for your permission. For example Claude Code, Codex CLI, Gemini CLI, '
                'Cursor, Pi or OpenCode.',
     'agent': '**Agent:** a model and a harness in a loop: the model writes tool calls, and the harness runs them '
              'and adds the results, until the task is done.',
     'provider': '**Provider:** the company that runs the model on its servers, for example Anthropic, OpenAI or '
-                'Google. It bills per token, or per month with limits counted in tokens. An open-weight model '
-                'can also run on your own computer.',
-    'token': '**Token:** a piece of a word. 1,000 tokens are roughly 550 to 750 English words, depending on the '
-             'model.',
+                'Google. It bills per token, or per month with limits counted in tokens.',
+    'token': '**Token:** a word or a piece of a word. 1,000 tokens are roughly 550 to 750 English words, depending '
+             'on the model.',
     'window': '**Context window:** all the text the model reads to write its next reply. Its size has a limit, '
               'for example 1,000,000 tokens.',
     'session': '**Session:** one conversation with its own context window. A new session starts with an empty '
@@ -515,11 +514,11 @@ GLOSSARY = {
     'setup': '**Set-up text:** what every request starts with: the harness\'s instructions, AGENTS.md, the '
              'memory index, and the lists of skills and tools.',
     'request': '**Request:** one round trip. The model gets the whole context window and writes one reply.',
-    'cache': "**Cache:** the provider's store of work already done on the start of a window. It is reused for a "
-             'few minutes, when the next request starts with the same text.',
+    'cache': "**Cache:** the provider's store of work already done on the start of a window. It is kept for a few "
+             'minutes, and a request that starts with the same text reuses it.',
     'training': '**Training:** how a model is built, from text collected up to a cutoff date. The model does not '
                 'change while you use it.',
-    'ratings': '**Training on human ratings:** a late step in training, where people, or models built from their '
+    'ratings': '**Training on human ratings:** a late step in training, where people, or models trained on their '
                'choices, score answers. The model learns to write the answers that score well.',
 }
 

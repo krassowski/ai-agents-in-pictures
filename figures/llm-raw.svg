@@ -169,7 +169,7 @@ a:hover .lnk { text-decoration: underline; }
 </defs>
 <rect x="0.0" y="0.0" width="2360.0" height="1449.0" rx="0" class="bg"/>
 <text x="30.0" y="64.0" class="b" style="font-size:42px" xml:space="preserve">What the model reads, as raw text</text>
-<text x="30.0" y="104.0" class="ink2" style="font-size:20px" xml:space="preserve">The simple harness ran one task with Gemma 4 E4B, a small open model that runs on your own computer. Its /raw command printed the model's whole window. Each part of it is a row of <a href="llm-context.svg"><tspan class="lnk">part 1</tspan></a>.</text>
+<text x="30.0" y="104.0" class="ink2" style="font-size:20px" xml:space="preserve">The simple harness ran one task with Gemma 4 E4B, a small open model that runs on your own computer. Its /raw command printed the model's whole window. Each section of it matches a row of the window in <a href="llm-context.svg"><tspan class="lnk">part 1</tspan></a>.</text>
 <rect x="30.0" y="150.0" width="2300.0" height="1147.0" rx="16" class="panel"/>
 <rect x="62.0" y="243.0" width="1499.0" height="73.5" rx="8" class="k-blue"/>
 <rect x="62.0" y="333.0" width="1499.0" height="141.0" rx="8" class="k-blue"/>

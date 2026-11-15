@@ -164,7 +164,8 @@ def main():
     height = bottom + 64
     out = page(W, height, 'What the model reads, as raw text',
                'The simple harness ran one task with Gemma 4 E4B, a small open model that runs on your own computer. '
-               f"Its /raw command printed the model's whole window. Each part of it is a row of [part 1]({PART1}).",
+               "Its /raw command printed the model's whole window. Each section of it matches a row of the window "
+               f'in [part 1]({PART1}).',
                'The raw text that a small model read and wrote during one task in the simple harness: the '
                "harness's instructions, AGENTS.md, the skill list, the tool list, the task, one tool call that "
                'reads a skill, the result and the answer, each matched to a row of the context window in part 1.',
