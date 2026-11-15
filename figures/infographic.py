@@ -593,7 +593,8 @@ def build(geo, out_path, title, subtitle, desc, left, right, draw_centre, source
     rboxes, _ = stack(body, right, RX, TOP, bottom, geo.COL)
     boxes = {**lboxes, **rboxes}
 
-    height = bottom + 84
+    # the sources are drawn below the panels, and the page ends one side margin below their last line
+    height = para([], LX, bottom + 22, W - 2 * LX, sources, 13) + LX
     out = page(W, height, title, subtitle, desc, LX, out_path.name)
     rect(out, CX0, TOP, CX1 - CX0, bottom - TOP, 'center', rx=16)
     out.extend(centre)
